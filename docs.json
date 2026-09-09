@@ -1,0 +1,74 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Корпоративный портал",
+  "theme": "almond",
+  "colors": {
+    "primary": "#ef7025",
+    "light": "#eec9bc",
+    "dark": "#4fa1ab"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Руководство",
+        "groups": [
+          {
+            "group": "Начало работы",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "structure"
+            ]
+          },
+          {
+            "group": "Страницы и контент",
+            "pages": [
+              "pages/overview",
+              "pages/landing",
+              "pages/static-pages",
+              "pages/media"
+            ]
+          },
+          {
+            "group": "Блог",
+            "pages": [
+              "blog/overview",
+              "blog/creating-posts",
+              "blog/categories-tags"
+            ]
+          },
+          {
+            "group": "База знаний",
+            "pages": [
+              "knowledge-base/overview",
+              "knowledge-base/articles",
+              "knowledge-base/search"
+            ]
+          },
+          {
+            "group": "Настройка",
+            "pages": [
+              "settings/branding",
+              "settings/navigation",
+              "settings/users-roles"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Блог",
+        "groups": [
+          {
+            "group": "Последние статьи",
+            "pages": [
+              "blog-posts/welcome",
+              "blog-posts/tips-and-tricks",
+              "blog-posts/updates"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

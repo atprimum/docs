@@ -1,0 +1,88 @@
+{
+  "projectType": "saas",
+  "projectName": "Корпоративный портал",
+  "projectDescription": "Корпоративный портал и база знаний с лендингами, статическими страницами и блогом.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Руководство",
+        "groups": [
+          {
+            "group": "Начало работы",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "structure"
+            ]
+          },
+          {
+            "group": "Страницы и контент",
+            "pages": [
+              "pages/overview",
+              "pages/landing",
+              "pages/static-pages",
+              "pages/media"
+            ]
+          },
+          {
+            "group": "Блог",
+            "pages": [
+              "blog/overview",
+              "blog/creating-posts",
+              "blog/categories-tags"
+            ]
+          },
+          {
+            "group": "База знаний",
+            "pages": [
+              "knowledge-base/overview",
+              "knowledge-base/articles",
+              "knowledge-base/search"
+            ]
+          },
+          {
+            "group": "Настройка",
+            "pages": [
+              "settings/branding",
+              "settings/navigation",
+              "settings/users-roles"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Блог",
+        "groups": [
+          {
+            "group": "Последние статьи",
+            "pages": [
+              "blog-posts/welcome",
+              "blog-posts/tips-and-tricks",
+              "blog-posts/updates"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Корпоративный портал с лендингами",
+    "Статические информационные страницы",
+    "Встроенный блог с категориями и тегами",
+    "База знаний с поиском по статьям",
+    "Управление пользователями и ролями",
+    "Настройка брендинга и навигации",
+    "Медиабиблиотека для изображений и файлов"
+  ],
+  "publicApiSurface": [
+    "Страницы: создание, редактирование, публикация",
+    "Блог: посты, категории, теги",
+    "База знаний: статьи, разделы, поиск",
+    "Пользователи: роли и права доступа",
+    "Настройки: брендинг, навигация, домен"
+  ]
+}
